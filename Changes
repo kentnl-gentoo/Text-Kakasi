@@ -1,0 +1,16 @@
+
+#
+# $Id: Changes,v 2.0 2003/05/22 18:19:11 dankogai Exp dankogai $
+#
+$Date: 2003/05/22 18:19:11 $
++ *
+  ! Version jumps to 2.0
+  + OOP interface
+  + cleaner XS codes
+  + CPAN-savvy test suites
+  + perl 5.8 Encode support
+  = backword compatibility
+  - ChangeLog -> ChangeLog.1 is the Changes file for ver. 1.x
+  ! Dan Kogai <dankogai@dan.co.jp>  Takes over the maintainance from
+    NOKUBI Takatsugu <knok@daionet.gr.jp>
+  Message-Id: <76B724DB-8B4B-11D7-9D18-000393AE4244@dan.co.jp>  
