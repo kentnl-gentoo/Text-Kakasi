@@ -6,7 +6,7 @@ use ExtUtils::MakeMaker;
 WriteMakefile(
 	      'NAME' => 'Text::Kakasi',
 	      'VERSION_FROM' => 'Kakasi.pm',
-	      'INC' => '-I/usr/local/include',
-	      'LIBS' => ['-L/usr/local/lib -lkakasi'],
+	      'INC' => '-I/usr/include',
+	      'LIBS' => ['-L/usr/lib -lkakasi'],
 	      'DEFINE' => '-DWAKATIGAKI',
 );
