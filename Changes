@@ -1,7 +1,19 @@
 #
-# $Id: Changes,v 2.1 2003/05/25 14:14:31 dankogai Exp dankogai $
+# $Id: Changes,v 2.2 2003/05/26 04:29:26 dankogai Exp dankogai $
 #
-$Date: 2003/05/25 14:14:31 $
+$Revision: 2.2 $ $Date: 2003/05/26 04:29:26 $
+! lib/Text/Kakasi.pod
+  Very minor document fixes
+! Kakasi.pm
+  Added 1st paragraph of =head1 DESCRIPTION so BSDPAN is happy.
+
+2.02 2003/05/26 04:29:26
+! Kakasi.pm MANIFEST
++ lib/Text/Kakasi.pod
+  English POD detached from Kakasi.pm prevent search.cpan.org from 
+  wrongly treats JP.pod as the main document for Kakasi.
+
+2.01 2003/05/25 14:14:31
 ! lib/Text/Kakasi/JP.pod
   POD retouches.
 ! MANIFEST
@@ -9,7 +21,7 @@ $Date: 2003/05/25 14:14:31 $
 - Kakasi/JP.pod
   Path renamed to prevent CPAN indexer from getting confused.
 
-2003/05/22 18:19:11
+2.00 2003/05/22 18:19:11
 + *
   ! Version jumps to 2.0
   + OOP interface

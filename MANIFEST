@@ -9,6 +9,7 @@ Makefile.PL		for perl Makefile.PL
 README			README
 README.jp		README in Japanese (euc-jp)
 lib/Text/Kakasi/JP.pod	Japanese POD for Text::Kakasi (euc-jp)
+lib/Text/Kakasi.pod	English POD for Text::Kakasi (ascii)
 t/01-func.t		test
 t/02-obj.t		test
 t/03-encode.t		test

@@ -1,6 +1,7 @@
 #
-# $Id: JP.pod,v 2.1 2003/05/25 14:14:31 dankogai Exp dankogai $
+# $Id: JP.pod,v 2.2 2003/05/26 04:29:26 dankogai Exp $
 #
+
 =head1 NAME
 
 Text::Kakasi - kakasi library module for perl
