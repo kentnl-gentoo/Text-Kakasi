@@ -1,5 +1,5 @@
 #
-# $Id: JP.pod,v 2.0 2003/05/22 18:19:11 dankogai Exp dankogai $
+# $Id: JP.pod,v 2.1 2003/05/25 14:14:31 dankogai Exp dankogai $
 #
 =head1 NAME
 
@@ -18,15 +18,14 @@ Text::Kakasi - kakasi library module for perl
 =head1 DESCRIPTION
 
 本モジュールはkakasi (kanji kana simple inverter)へのインターフェース
-を提供します。kakasiが提供するのは、input methodと逆の機能、すなわちか
-な漢字まじり文をひらがな、カタカナ、ローマ字などに逆変換します。kakasi
+を提供します。kakasiが提供するのは、input methodと逆、すなわちかな漢字
+まじり文をひらがな、カタカナ、ローマ字などに逆変換する機能です。kakasi 
 はまた文書の分かち書きにも利用することができます。詳しくは
-L<http://kakasi.namazu.org/>
-を御覧下さい。
+L<http://kakasi.namazu.org/> を御覧下さい。
 
 Text::Kakasi は、伝統的な関数ベースおよびオブジェクト指向の双方のイン
 ターフェイスを提供します。関数ベースの方は ver. 1.05 と 100% 互換です
-が、Perl 5.8以降の新機能を使うにはオブジェクト指向インターフェイスを
+が、Perl 5.8 以降の新機能を使うにはオブジェクト指向インターフェイスを
 使う必要があります。 
 
 =head1 Functional APIs
@@ -168,6 +167,5 @@ L<kakasi(1)>, L<http://kakasi.namazu.org/>,L<Encode>,L<perlunicode>
 There is no warranty for this free software. Anyone can modify and/or
 redistribute this module under GNU GENERAL PUBLIC LICENSE. See COPYING
 file that is included in the archive for more details.
-Copyright (C) 1998, 1999, 2000 NOKUBI Takatsugu <knok@daionet.gr.jp>
 
 =cut

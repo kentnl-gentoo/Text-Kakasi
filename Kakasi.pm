@@ -1,5 +1,5 @@
 #
-# $Id: Kakasi.pm,v 2.0 2003/05/22 18:19:11 dankogai Exp dankogai $
+# $Id: Kakasi.pm,v 2.1 2003/05/25 14:14:31 dankogai Exp dankogai $
 
 package Text::Kakasi;
 use strict;
@@ -9,7 +9,7 @@ require Exporter;
 require DynaLoader;
 
 use vars qw($VERSION $DEBUG @ISA @EXPORT_OK %EXPORT_TAGS $HAS_ENCODE);
-$VERSION = do { my @r = (q$Revision: 2.0 $ =~ /\d+/g); sprintf "%d."."%02d" x $#r, @r };
+$VERSION = do { my @r = (q$Revision: 2.1 $ =~ /\d+/g); sprintf "%d."."%02d" x $#r, @r };
 @ISA = qw(Exporter DynaLoader);
 @EXPORT_OK = qw(getopt_argv do_kakasi close_kanwadict);
 %EXPORT_TAGS = (all => [qw(getopt_argv do_kakasi close_kanwadict)]);
@@ -149,7 +149,7 @@ L<http://kakasi.namazu.org/> .
 
 Text::Kakasi now features both functional and object-oriented APIs.
 functional APIs are 100% compatible with ver. 1.05.  But to take
-advantage of L</"Perl 5.8 Features">, you should use OOP APIs.
+advantage of L</"Perl 5.8 Features">, you should use OOP APIs instead.
 
 =head1 Functional APIs
 
@@ -293,4 +293,3 @@ redistribute this module under GNU GENERAL PUBLIC LICENSE. See COPYING
 file that is included in the archive for more details.
 
 =cut
-

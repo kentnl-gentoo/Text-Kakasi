@@ -1,5 +1,5 @@
 #!/usr/bin/perl
-# $Id: 01-func.t,v 2.0 2003/05/22 18:19:11 dankogai Exp dankogai $
+# $Id: 01-func.t,v 2.0 2003/05/22 18:19:11 dankogai Exp $
 # 
 # by Dan Kogai <dankogai@dan.co.jp>
 # Originally as test.pl by:

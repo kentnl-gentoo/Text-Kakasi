@@ -17,7 +17,7 @@
     along with this program; if not, write to the Free Software
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
-$Id: Kakasi.xs,v 2.0 2003/05/22 18:19:11 dankogai Exp dankogai $
+$Id: Kakasi.xs,v 2.0 2003/05/22 18:19:11 dankogai Exp $
 */
 
 #ifdef __cplusplus

@@ -1,5 +1,5 @@
 #
-# $Id: Makefile.PL,v 2.0 2003/05/22 18:19:11 dankogai Exp dankogai $
+# $Id: Makefile.PL,v 2.0 2003/05/22 18:19:11 dankogai Exp $
 #
 use ExtUtils::MakeMaker;
 
