@@ -1,7 +1,17 @@
 #
-# $Id: Changes,v 2.2 2003/05/26 04:29:26 dankogai Exp dankogai $
+# $Id: Changes,v 2.4 2003/05/26 10:39:49 dankogai Exp dankogai $
 #
-$Revision: 2.2 $ $Date: 2003/05/26 04:29:26 $
+$Revision: 2.4 $ $Date: 2003/05/26 10:39:49 $
+! lib/Text/Kakasi/JP.pod
+  s/Text::Kakasi/Text::Kakasi::JP/ for NAME section
+  Thank Graham Barr <gbarr@pobox.com> for showing me the
+  right trick.  But I STILL THINK search.cpan.org is WRONG.
+  Message-Id: <rt-22325-58215.2.40083316787562@rt.perl.org>
+- lib/Text/Kakasi.pod
+! Kakasi.pm
+  Merged pod back in and deleted lib/Text/Kakasi.pod
+
+2.03 2003/05/26 04:29:26
 ! lib/Text/Kakasi.pod
   Very minor document fixes
 ! Kakasi.pm

@@ -1,6 +1,6 @@
 #XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
 name:         Text-Kakasi
-version:      2.01
+version:      2.04
 version_from: Kakasi.pm
 installdirs:  site
 requires:
